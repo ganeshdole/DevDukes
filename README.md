@@ -26,7 +26,7 @@ To install the Bigspring website project, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone
+   git clone https://github.com/ganeshdole/DevDukes.git
    ```
 
 2. Navigate to the project directory:
@@ -60,49 +60,12 @@ This will generate a production-ready build in the `dist` directory.
 
 ## Customization
 
-### Changing Colors
-
-To change the color scheme, modify the `tailwind.config.js` file. For example, to change the primary color:
-
-```js
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        primary: "#00A5FF", // Replace with your desired color
-      },
-    },
-  },
-  // ...
-};
-```
-
 ### Adding New Components
 
 To add a new component:
 
 1. Create a new file in the `src/components` directory.
 2. Import and use the component in `App.jsx` or other relevant components.
-
-## Contributing
-
-Contributions to the Bigspring website project are welcome. Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the original branch: `git push origin feature-branch-name`.
-5. Create the pull request.
-
-Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Contact
-
-If you want to contact the maintainer of this project, please email dole77770@gmail.com.
 
 ## Acknowledgements
 
